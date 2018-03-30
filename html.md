@@ -39,16 +39,17 @@
 
 
 ## 语法
-- <标记 属性=“属性值”>内容</标记>
+<标记 属性=“属性值”>内容</标记>
 
-- <dl>              # 自定义列表(definition list)
-    <dt>            # 自定义项
-      <dd></dd>     # 自定义项描述（无序号缩进）
-    </dt>
-  </dl>
+    <dl>              # 自定义列表(definition list)
+      <dt>            # 自定义项
+        <dd></dd>     # 自定义项描述（无序号缩进）
+      </dt>
+    </dl>
 
-- <table border/width/height/align/bgcolor>    # 表格
-    <tr>                                       # 行
-      <td></td>                                # 列
-    </tr>
-  </table>
+
+    <table border/width/height/align/bgcolor>      # 表格
+        <tr>                                       # 行
+          <td></td>                                # 列
+        </tr>
+    </table>
