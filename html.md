@@ -15,12 +15,12 @@
 
 
 ## HTML 基本标记结构
-<html>
-  <head>
-    <title></title>
-  </head>
-  <body></body>
-</html>
+    <html>
+      <head>
+        <title></title>
+      </head>
+      <body></body>
+    </html>
 
 
 ## 标签
@@ -39,17 +39,33 @@
 
 
 ## 语法
-<标记 属性=“属性值”>内容</标记>
+    <标记 属性=“属性值”>内容</标记>
 
+### 列表（ul,ol,dl）
     <dl>              # 自定义列表(definition list)
       <dt>            # 自定义项
         <dd></dd>     # 自定义项描述（无序号缩进）
       </dt>
     </dl>
 
-
+### 表格 table
     <table border/width/height/align/bgcolor>      # 表格
+        <tr>                                       # 表头（自动居中加粗）
+          <th></th>                                # 列
+        </tr>
         <tr>                                       # 行
           <td></td>                                # 列
         </tr>
     </table>
+
+### 表单 form
+表单在网页中主要负责**数据采集**功能。用途如下：
+- 文本框 text
+- 文本域 textarea
+- 密码框 password
+- 单选框 radio
+- 复选框 checkbox
+- 上传文件域 file
+- 下拉列表框 select
+- 提交按钮框 submit
+- 取消按钮框 reset
